@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Oxygen+Mono&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet">
+    <title>Yvonne Yang's Portfolio Website</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <h1>
+                    <a href="index.html">
+                        <span class="fa-solid fa-wand-magic-sparkles" aria-hidden="true"></span>
+                        Yvonne Yang
+                    </a>
+                </h1>
+            </li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li>
+                <a href="https://www.linkedin.com/in/yangyimin/">
+                    <span class="fa-brands fa-linkedin" aria-hidden="true"></span>           
+                    <span class="sr-only">LinkedIn</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/yvonneyangH">
+                    <span class="fa-brands fa-square-github"aria-hidden="true"></span>
+                    <span class="sr-only">Github</span>
+                </a>  
+            </li>
+            <li><a href="resume.html" class="button">Resume</a></li>
+        </ul>
+    </nav>
+    <section id="intro">
+        <p class="name">Hi, my name is <span>Yvonne Yang. </span></p>
+        <h2>I develop the Apps.</h2>
+        <p>I'm a developer specializing in JavaScript, React, Redux, Sequelize,  Express, Java, python HTML and CSS.</p>
+        <p>Currently, I'm completing the Fullstack Academy Bootcamp, making a career switch from Architect to <a href="https://github.com/yvonneyangH" target="_blank">Software Engineer</a>.</p>
+    </section>
+    <div class="gradient"></div>
+    <!-- instructions in JavaScript block -->
+    <div class="section-gradient1">
+        <section id="projects">
+            <h2>Projects I'm proud of</h2>
+            <article>
+                <div class="text">
+                <h4>Latest Project</h4>
+                <h3>ZapQuest</h3>
+                <p class="blackbox">ZapQuest is a user-friendly and feature-rich EV Charger Locator Map app that simplifies the process of finding charging stations for electric vehicles. With smart filtering options, step-by-step directions, the "Find My Location" feature, and the ability to share information, zapQuest empowers users to make informed choices and contribute to a cleaner, greener world.
+                    Check out the <a href="https://zapquest.onrender.com/#/">ZapQuest Website</a>, and the Github <a href="https://github.com/yvonneyangH/ZapQuest">Repository</a>.</p>
+                <h4>Technologies used include:</h4>
+                <ul>
+                    <li>React</li>
+                    <li>Postgre</li>
+                    <li>Node.js</li>
+                    <li>Express</li>
+                    <li>GoogleAPI</li>  
+                    <li>Bootstrap</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>NREL ApI</li>  
+                </ul>
+                </div>
+                <img src="img/Search.gif" alt="Screenshot of the ZapQuest." />
+            </article>
+            <article class="reverse">
+                <div class="text">
+                    <h4>Latest Project</h4>
+                    <h3>MeowMarket</h3>
+                    <div >
+                        <p class="blackbox">
+                            MeowMarket is an ecommerce website offering a seamless and delightful cat adoption service, helping new kitten owners find the perfect suppliers to set up a loving home. As part of the MeowMarket project, I designed both back-end and front-end functionalities, including order handling, the cart filling, cart management, and facilitating purchases for visitors and registered users, and handling edge cases with asynchronous database queries. I adeptly managed a four-member engineering team, ensuring a smooth development process and successful project deployment.
+                        
+                            Check out the <a href="https://meowmarket-gjjv.onrender.com/">MeowMarket Website</a>, and the Github <a href="https://github.com/yvonneyangH/MeowMarket">Repository</a>.
+                        </p>
+                    </div>
+                    <h4>Technologies used include:</h4>   
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>PostgreSQL</li>
+                        <li>Express</li>
+                        <li>React</li>
+                        <li>Node.js</li>
+                    </ul>
+                </div>
+                <img src="img/MeoMarket-products.gif" alt="Screenshot of the MeoMarket." />
+            </article>
+            <article>
+                <div class="text">
+                <h4>Fun Project</h4>
+                <h3>Coffee Clicker</h3>
+                <p class="blackbox">
+                    Coffee Clicker is a “totally original” idle game.  Start your coffee-addiction journey as you click cup after cup of glorious black brew.  Not making enough coffee to satisfy your desires?  Just spend some coffee to buy upgrades like coffee machines.  Decor too drab?  Then spend more coffee to unlock new store locations and boost your coffee production mania.  Keep an eye out for lucky coffee cups too!  
+                    Check out the <a href="https://coffeeclickergame.onrender.com">Coffee Clicker</a>, and the Github <a href="https://github.com/yvonneyangH/Coffee-game">Repository</a>.
+                </p>
+                <h4>Technologies used include:</h4>
+                <ul>
+                    <li>React</li>
+                    <li>Javascript</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
+                </div>
+                <img src="img/coffeeGame.gif" alt="Screenshot of the Coffee Clicker." />
+            </article>
+        </section>
+    </div>
+    <div class="gradient"></div>
+    <div class="section-plum">
+        <section id="myInfo">
+            <h2>About Yvonne Yang</h2>
+            <article>
+                <div class="text">
+                <h3>Just the highlights</h3>
+                <p class="blackbox">I have worked for over 10 years as a licensed architect at major architectural firms, designing hospitals, and office towers. 
+                    I have strong technical skills, honed from years of designing modular elements and conforming them to building requirements. 
+                    I have recently decided to take some time to learn coding, and I have taken multiple online coding classes on EdX, 
+                    and I completed courses in Python, Java, Data Structures, and Algorithms. 
+                    Following these initial forays, I delved deeper by taking a Fullstack Academy bootcamp, 
+                    and I have completed projects using Javascript, getting experience with packages including React, Redux, Sequelize, and Express. 
+                    I have found that I love the work of coding, and I look forward to working on exciting coding projects.
+                    Check out my <a href="https://github.com/yvonneyangH">repository</a> for the projects. My email address<a href="#">yvonne.yangh@gmail.com</a>.</p>
+                <h4>Technologies used include:</h4>
+                <ul >
+                    <li>PostgreSQL</li>
+                    <li>Express</li>
+                    <li>React</li>
+                    <li>Node.js</li>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                    <li>Java</li>
+                </ul>
+                </div>
+                <img src="img/yiminPhoto.jpg" alt="Screenshot of the Wall of Wonder." />
+            </article>
+        </section>
+    </div>
+    <div class="gradient"></div>
+    <div class="section-blue">
+        <section id="contact">
+            <h2>Contact me</h2>
+
+            <p>I'm always interested in hearing about new opportunities.</p>
+            <p>yvonne.yangh@gmail.com</p>
+
+            <p><a href="mailto:yvonne.yangh@gmail.com" class="button">Email me</a></p>
+        </section>
+    </div>
+    <div class="gradient"></div>
+    <footer>
+        <h2>Yvonne Yang &middot; Software Engineer</h2>
+        <ul>
+          <li>
+            <a href="https://www.linkedin.com/in/yangyimin/">
+              <span class="fa-brands fa-linkedin" aria-hidden="true">
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/yvonneyangH">
+              <span class="fa-brands fa-square-github" aria-hidden="true"></span>
+            </a>
+            
+          </li>
+           <li>
+             <a href="mailto:yvonne.yangh@gmail.com">
+               <span class="fa-solid fa-envelope" aria-hidden="true"></span>
+             </a>
+          </li>
+         </ul>
+         <p><samll>&copy; 2023 Yimin Yang. All rights reserved.</small></p>
+      </footer>
+</body>
+</html>
